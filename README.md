@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
+<h3>Check out GitHub Pages: https://lespuch-v.github.io/angular-static-site/#git</h3>
+
 Simple static site Generated with Angular 
 ![static site](https://user-images.githubusercontent.com/36127590/162737409-b359c877-e6c8-4d20-a40c-30fd1e93cacb.png)
 
