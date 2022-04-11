@@ -1,0 +1,62 @@
+.footer-container {
+  padding: 20px;
+  background-color: #65809c;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.btn-links {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  width: 150px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+.btn-links:hover {
+  color: orange;
+}
+.social-medias {
+  padding: 5px;
+  width: 20px;
+  border-radius: 10%;
+}
+.paragraph-footer {
+  display: block;
+  color: red;
+}
+
+/* *************************** MEDIA QUERIES *************************** */
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 700px) {
+  .footer-container {
+    padding: 5px;
+  }
+
+  img {
+    margin: 0;
+  }
+  .btn-links {
+    font-size: 1.2rem;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    margin: 0;
+  }
+}

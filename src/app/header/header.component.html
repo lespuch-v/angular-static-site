@@ -1,0 +1,34 @@
+<div class="ubber-container">
+  <section class="header-container">
+    <div class="links-section">
+      <a class="btn-links" href="#abtm">About me</a>
+      <a class="btn-links" href="#skl">Skills</a>
+      <a class="btn-links" href="#git">Get In Touch</a>
+    </div>
+    <img
+      class="cloud-img cloud-first"
+      [src]="'/assets/cloud.png'"
+      alt="cloud"
+    />
+    <h1 id="abtm" class="myHeading">I'm Vasyl</h1>
+    <p>
+      and
+      <span class="description"
+        >I'm a
+        <span
+          [ngStyle]="{ color: randomColor(), letterSpacing: '6px' }"
+          *ngFor="let item of characterList"
+          class="dev"
+          >{{ item }}</span
+        >
+      </span>
+    </p>
+
+    <img
+      class="cloud-img cloud-second"
+      [src]="'/assets/cloudAndSun.png'"
+      alt="cloud"
+    />
+    <img class="mointain-img" [src]="'/assets/mountain2.png'" alt="mountain" />
+  </section>
+</div>

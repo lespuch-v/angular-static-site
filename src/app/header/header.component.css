@@ -1,0 +1,90 @@
+.ubber-container {
+  margin: 0;
+  padding: 0;
+  background-color: #f7fbfc;
+}
+.header-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  /* height: 950px; */
+}
+
+.cloud-img {
+  max-width: 200px;
+}
+.cloud-first {
+  /* float: left; */
+  padding-left: 70%;
+}
+.cloud-second {
+  /* float: right; */
+  padding-right: 70%;
+}
+.mointain-img {
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+  align-self: flex-end;
+  margin: 0 auto;
+}
+.myHeading {
+  color: #769fcd;
+  font-size: 4.7rem;
+  font-family: "Sacramento", cursive;
+}
+p {
+  font-size: 1.6rem;
+}
+h2, h3, p{
+  color: #444f5a;
+}
+.header-container p {
+  margin: 50px;
+}
+.description {
+  display: block;
+  color: #444f5a;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-family: "Merriweather", serif;
+}
+.dev {
+  text-transform: uppercase;
+}
+.dev:hover {
+  text-decoration: underline;
+  text-shadow: #d6e6f2 0px 3px 8px;
+}
+.links-section {
+  /* outline: 2px solid orangered; */
+  text-align: right;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.links-section a {
+  padding: 20px;
+}
+
+.btn-links {
+  color: #444f5a;
+  padding: 10px;
+  text-decoration: none;
+  width: 150px;
+  height: 10px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.btn-links:hover {
+  color: orange;
+}
+
+
+
+/* *************************** MEDIA QUERIES *************************** */
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  .cloud-img {
+    width: 100px;
+  }
+}
